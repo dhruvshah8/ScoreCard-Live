@@ -15,6 +15,9 @@
 		1E5A708E2489599900402270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5A708C2489599900402270 /* LaunchScreen.storyboard */; };
 		1E5A709624895CDF00402270 /* ConferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A709524895CDF00402270 /* ConferencesView.swift */; };
 		1E5A709824895EC100402270 /* ConferenceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A709724895EC100402270 /* ConferenceCard.swift */; };
+		1EC99AF024896D7400FFD866 /* TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AEF24896D7400FFD866 /* TeamsModel.swift */; };
+		1EC99AF224896ECD00FFD866 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AF124896ECD00FFD866 /* DataModel.swift */; };
+		1EC99AF4248971EC00FFD866 /* TeamsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AF3248971EC00FFD866 /* TeamsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		1E5A708F2489599900402270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E5A709524895CDF00402270 /* ConferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesView.swift; sourceTree = "<group>"; };
 		1E5A709724895EC100402270 /* ConferenceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceCard.swift; sourceTree = "<group>"; };
+		1EC99AEF24896D7400FFD866 /* TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsModel.swift; sourceTree = "<group>"; };
+		1EC99AF124896ECD00FFD866 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		1EC99AF3248971EC00FFD866 /* TeamsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				1E5A70812489599100402270 /* AppDelegate.swift */,
 				1E5A70832489599100402270 /* SceneDelegate.swift */,
 				1E5A70852489599200402270 /* ContentView.swift */,
+				1EC99AF3248971EC00FFD866 /* TeamsListView.swift */,
+				1EC99AEF24896D7400FFD866 /* TeamsModel.swift */,
+				1EC99AF124896ECD00FFD866 /* DataModel.swift */,
 				1E5A709524895CDF00402270 /* ConferencesView.swift */,
 				1E5A709724895EC100402270 /* ConferenceCard.swift */,
 				1E5A70872489599900402270 /* Assets.xcassets */,
@@ -152,11 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC99AF224896ECD00FFD866 /* DataModel.swift in Sources */,
 				1E5A70822489599100402270 /* AppDelegate.swift in Sources */,
 				1E5A70842489599200402270 /* SceneDelegate.swift in Sources */,
+				1EC99AF024896D7400FFD866 /* TeamsModel.swift in Sources */,
 				1E5A709624895CDF00402270 /* ConferencesView.swift in Sources */,
 				1E5A709824895EC100402270 /* ConferenceCard.swift in Sources */,
 				1E5A70862489599200402270 /* ContentView.swift in Sources */,
+				1EC99AF4248971EC00FFD866 /* TeamsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

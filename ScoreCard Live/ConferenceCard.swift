@@ -8,8 +8,11 @@
 
 import SwiftUI
 
+
+
 struct ConferenceCard: View {
     var conferenceName: String
+    let fetchData = DataModel()
     
     var body: some View {
         
@@ -17,9 +20,12 @@ struct ConferenceCard: View {
             Text("\(conferenceName) Conference").font(.title).fontWeight(.bold)
             Button(action: {			
                 print("Button is pressed")
+                self.fetchData.fetchData()
+               
+                
             }){
                 Image(conferenceName).resizable().renderingMode(.original).aspectRatio(contentMode: .fill).frame(width: 350, height: 350).cornerRadius(20).shadow(radius: 20)
-        }
+            }
         }
     }
 }

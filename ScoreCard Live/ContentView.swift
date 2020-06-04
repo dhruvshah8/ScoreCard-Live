@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-           ConferenceCard(conferenceName: "Eastern")
+           TeamsListView()
                 .tabItem {
                     VStack {
                         Image("second")
