@@ -14,7 +14,7 @@ struct TeamsListView: View {
     
     var body: some View {
       
-        
+        Text("HELLO")
         
         
     }
