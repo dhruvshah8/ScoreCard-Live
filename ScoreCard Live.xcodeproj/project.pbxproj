@@ -13,6 +13,8 @@
 		1E5A70882489599900402270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5A70872489599900402270 /* Assets.xcassets */; };
 		1E5A708B2489599900402270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5A708A2489599900402270 /* Preview Assets.xcassets */; };
 		1E5A708E2489599900402270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5A708C2489599900402270 /* LaunchScreen.storyboard */; };
+		1E5A709624895CDF00402270 /* ConferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A709524895CDF00402270 /* ConferencesView.swift */; };
+		1E5A709824895EC100402270 /* ConferenceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A709724895EC100402270 /* ConferenceCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1E5A708A2489599900402270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E5A708D2489599900402270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E5A708F2489599900402270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5A709524895CDF00402270 /* ConferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesView.swift; sourceTree = "<group>"; };
+		1E5A709724895EC100402270 /* ConferenceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1E5A70812489599100402270 /* AppDelegate.swift */,
 				1E5A70832489599100402270 /* SceneDelegate.swift */,
 				1E5A70852489599200402270 /* ContentView.swift */,
+				1E5A709524895CDF00402270 /* ConferencesView.swift */,
+				1E5A709724895EC100402270 /* ConferenceCard.swift */,
 				1E5A70872489599900402270 /* Assets.xcassets */,
 				1E5A708C2489599900402270 /* LaunchScreen.storyboard */,
 				1E5A708F2489599900402270 /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				1E5A70822489599100402270 /* AppDelegate.swift in Sources */,
 				1E5A70842489599200402270 /* SceneDelegate.swift in Sources */,
+				1E5A709624895CDF00402270 /* ConferencesView.swift in Sources */,
+				1E5A709824895EC100402270 /* ConferenceCard.swift in Sources */,
 				1E5A70862489599200402270 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,8 +294,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ScoreCard Live/Preview Content\"";
+				DEVELOPMENT_TEAM = WN69BMQXZR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ScoreCard Live/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +315,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ScoreCard Live/Preview Content\"";
+				DEVELOPMENT_TEAM = WN69BMQXZR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ScoreCard Live/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
