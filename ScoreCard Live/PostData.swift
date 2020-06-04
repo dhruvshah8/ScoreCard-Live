@@ -1,5 +1,5 @@
 //
-//  TeamsModel.swift
+//  PostData.swift
 //  ScoreCard Live
 //
 //  Created by Dhruv Shah on 2020-06-04.
@@ -7,14 +7,14 @@
 //
 
 import Foundation
- 
-struct TeamsModel: Decodable {
-    
-    let data: [Teams]
+
+struct Results: Decodable {
+    let data: [Post]
 }
 
-struct Teams: Decodable, Identifiable {
+struct Post: Decodable, Identifiable {
+ 
     let id: Int
-    let conference: String
     let full_name: String
+    let conference: String
 }

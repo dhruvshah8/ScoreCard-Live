@@ -5,7 +5,7 @@
 //  Created by Dhruv Shah on 2020-06-04.
 //  Copyright © 2020 Dhruv Shah. All rights reserved.
 //
-
+// "https://www.balldontlie.io/api/v1/teams"
 import SwiftUI
 
 struct ConferencesView: View {

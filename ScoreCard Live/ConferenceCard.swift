@@ -12,7 +12,7 @@ import SwiftUI
 
 struct ConferenceCard: View {
     var conferenceName: String
-    let fetchData = DataModel()
+    
     
     var body: some View {
         
@@ -20,7 +20,7 @@ struct ConferenceCard: View {
             Text("\(conferenceName) Conference").font(.title).fontWeight(.bold)
             Button(action: {			
                 print("Button is pressed")
-                self.fetchData.fetchData()
+                
                
                 
             }){
