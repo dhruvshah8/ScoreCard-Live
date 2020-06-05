@@ -11,32 +11,22 @@ import SwiftUI
 struct TeamsListView: View {
     
     @ObservedObject var networkManager = NetworkManager()
+    var conference = "East"
     
     var body: some View {
-        NavigationView {
-            List(networkManager.posts) { post in
-                
-                
-                HStack {
-                    if post.conference == "East"{
-                        Text(String(post.full_name))
+       
+    
+            ScrollView {
+                  HStack(alignment: .top){
+                    ForEach (networkManager.posts, id:\.conference)
+                    {team in
+                        TeamView(teamName: team)
                     }
-                    
-                    
-                    
                 }
-            }
-            .listStyle(.grouped)
-            .navigationBarTitle("H4X0R NEWS")
-            
+          
         }
-        .onAppear {
-            self.networkManager.fetchData()
-        }
+        
     }
-    
-    
-    
 }
 
 

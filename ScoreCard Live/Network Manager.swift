@@ -5,6 +5,7 @@ class NetworkManager: ObservableObject {
     @Published var posts = [Post]()
     
     func fetchData() {
+        
         if let url = URL(string: "https://www.balldontlie.io/api/v1/teams") {
             let session = URLSession(configuration: .default)
             let task = session.dataTask(with: url) { (data, response, error) in
