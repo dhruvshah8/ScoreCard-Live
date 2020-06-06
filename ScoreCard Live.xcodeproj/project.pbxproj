@@ -16,7 +16,10 @@
 		1E5A708E2489599900402270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5A708C2489599900402270 /* LaunchScreen.storyboard */; };
 		1E5A709624895CDF00402270 /* ConferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A709524895CDF00402270 /* ConferencesView.swift */; };
 		1E5A709824895EC100402270 /* ConferenceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A709724895EC100402270 /* ConferenceCard.swift */; };
-		1EC99AF4248971EC00FFD866 /* TeamsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AF3248971EC00FFD866 /* TeamsListView.swift */; };
+		1EAC2292248C281200B6E38E /* WesternTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC2291248C281200B6E38E /* WesternTeams.swift */; };
+		1EC26A58248C082D002143EE /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC26A57248C082D002143EE /* ImageLoader.swift */; };
+		1EC26A5A248C0B86002143EE /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC26A59248C0B86002143EE /* GridStack.swift */; };
+		1EC99AF4248971EC00FFD866 /* EasternTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AF3248971EC00FFD866 /* EasternTeams.swift */; };
 		1EC99AF624898F9E00FFD866 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AF524898F9E00FFD866 /* PostData.swift */; };
 		1EC99AF82489900D00FFD866 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC99AF72489900D00FFD866 /* Network Manager.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +36,10 @@
 		1E5A708F2489599900402270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E5A709524895CDF00402270 /* ConferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesView.swift; sourceTree = "<group>"; };
 		1E5A709724895EC100402270 /* ConferenceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceCard.swift; sourceTree = "<group>"; };
-		1EC99AF3248971EC00FFD866 /* TeamsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListView.swift; sourceTree = "<group>"; };
+		1EAC2291248C281200B6E38E /* WesternTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternTeams.swift; sourceTree = "<group>"; };
+		1EC26A57248C082D002143EE /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1EC26A59248C0B86002143EE /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		1EC99AF3248971EC00FFD866 /* EasternTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasternTeams.swift; sourceTree = "<group>"; };
 		1EC99AF524898F9E00FFD866 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		1EC99AF72489900D00FFD866 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,13 +76,8 @@
 			children = (
 				1E5A70812489599100402270 /* AppDelegate.swift */,
 				1E5A70832489599100402270 /* SceneDelegate.swift */,
-				1E5A70852489599200402270 /* ContentView.swift */,
-				1EC99AF3248971EC00FFD866 /* TeamsListView.swift */,
-				1EC99AF524898F9E00FFD866 /* PostData.swift */,
-				1EC99AF72489900D00FFD866 /* Network Manager.swift */,
-				1E5A709524895CDF00402270 /* ConferencesView.swift */,
-				1E3C139F2489A25400758F55 /* TeamView.swift */,
-				1E5A709724895EC100402270 /* ConferenceCard.swift */,
+				1EC26A54248C022E002143EE /* Controller */,
+				1EC26A55248C0250002143EE /* View */,
 				1E5A70872489599900402270 /* Assets.xcassets */,
 				1E5A708C2489599900402270 /* LaunchScreen.storyboard */,
 				1E5A708F2489599900402270 /* Info.plist */,
@@ -91,6 +92,38 @@
 				1E5A708A2489599900402270 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EC26A54248C022E002143EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EC99AF524898F9E00FFD866 /* PostData.swift */,
+				1EC99AF72489900D00FFD866 /* Network Manager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1EC26A55248C0250002143EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E5A70852489599200402270 /* ContentView.swift */,
+				1E5A709524895CDF00402270 /* ConferencesView.swift */,
+				1EC99AF3248971EC00FFD866 /* EasternTeams.swift */,
+				1EAC2291248C281200B6E38E /* WesternTeams.swift */,
+				1E5A709724895EC100402270 /* ConferenceCard.swift */,
+				1E3C139F2489A25400758F55 /* TeamView.swift */,
+				1EC26A56248C0813002143EE /* Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EC26A56248C0813002143EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EC26A57248C082D002143EE /* ImageLoader.swift */,
+				1EC26A59248C0B86002143EE /* GridStack.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +199,15 @@
 			files = (
 				1E5A70822489599100402270 /* AppDelegate.swift in Sources */,
 				1E5A70842489599200402270 /* SceneDelegate.swift in Sources */,
+				1EC26A58248C082D002143EE /* ImageLoader.swift in Sources */,
+				1EAC2292248C281200B6E38E /* WesternTeams.swift in Sources */,
 				1E5A709624895CDF00402270 /* ConferencesView.swift in Sources */,
 				1E5A709824895EC100402270 /* ConferenceCard.swift in Sources */,
 				1E5A70862489599200402270 /* ContentView.swift in Sources */,
+				1EC26A5A248C0B86002143EE /* GridStack.swift in Sources */,
 				1EC99AF82489900D00FFD866 /* Network Manager.swift in Sources */,
 				1EC99AF624898F9E00FFD866 /* PostData.swift in Sources */,
-				1EC99AF4248971EC00FFD866 /* TeamsListView.swift in Sources */,
+				1EC99AF4248971EC00FFD866 /* EasternTeams.swift in Sources */,
 				1E3C13A02489A25400758F55 /* TeamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

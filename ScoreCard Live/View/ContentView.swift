@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-           TeamsListView()
+            EasternTeams( conference: "Eastern")
                 .tabItem {
                     VStack {
                         Image("second")
